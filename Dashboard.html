@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet" 
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Personal Blogging App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ps-4">
+                <button id="signout" class="nikal">logout</button>
+              </li>
+              <li class="nav-item ps-4">
+                <button id="Fpost" class="nikal">All Post</button>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="Dashbord" id="container_of_Dashbord">
+    <h1 class="text">Dashboard</h1>
+      <div class="smallcontainerDashboard">
+        <input type="text" id="post_detail1" class="field" placeholder="Placeholder"><br>
+       <textarea name="" class="field" id="post_detail" cols="120" rows="7" placeholder="What is in your mind"></textarea>
+       <br>
+       <button id="sendblog">Publish blog</button>
+      </div>
+      </div>
+      <div id="myBlogs">
+           <h2 class="Good">Blogs</h2>
+           <div id="PersonalBlogs">
+
+           </div>
+      </div>
+      <div class="Dashbord1" id="container_of_getallpost">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-primary" id="nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Personal Blogging App</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ps-4">
+                    <button id="signout" class="nikal">logout</button>
+                  </li>
+                  <li class="nav-item ps-4">
+                    <button id="gpost" class="nikal">My personal post</button>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <h1 class="Good">Good Morning All Readers</h1>
+         <h2 class="Good">All Blocks</h2>
+         <div id="blog_container">
+
+         </div>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+    <script src="Dashboard.js" type="module"></script>
+</body>
+</html>

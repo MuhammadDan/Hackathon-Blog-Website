@@ -1,0 +1,108 @@
+.smallcontainerDashboard{
+    /* background-color: red; */
+    width: 180vh;
+    height: 50vh;
+    margin-left: 50px;
+    position: relative;
+    box-shadow: 2px 3px 5px grey;
+}
+.navbar{
+    background: #2980b9;
+}
+#post_detail1{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 138vh;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+#post_detail{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+.field{
+    padding-left: 3vh;
+}
+.text{
+   margin-left: 20vh; 
+}
+#sendblog{
+    position: absolute;
+    background-color: blue;
+    border-radius: 5px;
+    top: 40vh;
+    left: 10vh;
+}
+.PostCard{
+    width: 1190px;
+    min-height: 200px;
+    margin: 45px 1px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px grey;
+}
+.PostCard>h1{
+    max-width: 400px;
+    display: inline;
+    padding-left: 30px;
+}
+#myBlogs{
+    width: 1200px;
+    min-height: 400px;
+    margin: 20px 60px;
+    padding: 20px;
+}
+.Dashbord1{
+    width: 1200px;
+    min-height: 400px;
+    margin: 20px 60px;
+    padding: 20px;
+}
+.Good{
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
+#container_of_getallpost{
+    display: none;
+}
+#PersonalBlogs{
+    overflow: hidden;
+  overflow-y: scroll;
+}
+#blog_container{
+    width: 1200px;
+    min-height: 400px;
+    margin: 20px 60px;
+    padding: 20px;
+}
+.nikal{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+.PostCard>.delBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    background-color: blue;
+}
+.editBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    width: 80px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    background-color: blue; 
+}
+.avatar{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    vertical-align: middle;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: white; 
+    position: relative;
+}
+.main-container{
+    position: absolute;
+    top: 20vh;
+    left: 40%;
+    border: 2px solid black;
+    width: 300px;
+    height: 320px;
+    text-align: center; 
+    border-radius:  5px;
+    color: black;
+}
+.main-container1{
+    position: absolute;
+    top: 20vh;
+    left: 40%;
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    text-align: center; 
+    border-radius:  5px;
+    color: black;
+}
+.text-field{
+    padding: 5px 20px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+}
+.btn-style{
+    color: black;
+    margin-top: 5vh;
+    padding: 10px 40px;
+    border: 1px solid black; 
+    border-radius: 15px;
+}
+.btn-style:hover{
+    background-color: blue;
+    color: wheat;
+}
+#container_of_register{
+    display: none;
+}
+.an-btn{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border:1px solid black ;
+    color: black;
+}
+.an-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.nikal{
+    display: none;
+}
